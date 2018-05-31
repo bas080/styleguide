@@ -17,7 +17,7 @@
     "test-watch": "jest --watch",
     "test-watch-coverage": "jest --watch --coverage",
     "lint": "eslint src/components/**/*.{js,jsx}",
-    "prettify": "yarn lint --fix"
+    "prettify": "npm run lint -- --fix"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
